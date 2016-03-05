@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>lastminute.com: style guide</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="style guide, color palettes, buttons, navigation, sort controls, imagery, tone of voice" />
+<meta name="description" content="Online Style Guide for lastminute.com" />
+<link href="master.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+
+<div id="master">
+
+  <div id="header"> <a href="index.html"><img alt="lastminute.com" border="0" src="images/lmn_top_logo.gif" title="lastminute.com" /></a>
+    <div class="right"> <img src="images/lmn_online_style.gif" alt="Online Style Guide" title="Online Style Guide" /> </div>
+    <ul id="master_nav">
+      <li class="current"><a href="index.html" title="Lastminute.com Style Guide" target="_top">Lastminute.com</a></li>
+
+    </ul>
+  </div>
+  <!-- /master_top -->
+
+  <div id="container"> <!-- InstanceBeginRepeat name="left nav" --><!-- InstanceBeginRepeatEntry -->
+    <div id="prod_nav">
+      <ul>
+        <li class="leftnavtop">Brand</li>
+        <li><a href="colour-palette.html">Colour palette</a></li>
+        <li><a href="typeface.html">Typeface</a></li>
+      </ul>
+      <ul>
+        <li class="leftnavtop">UI Elements</li>
+        <li><a href="breadcrumb-trails.html">Breadcrumb trails</a></li>
+        <li><a href="buttons.html">Buttons</a></li>
+        <li><a href="hotel-cards.html">Hotel Cards</a></li>
+        <li><a href="flight-cards.html">Flight Cards</a></li>
+        <li><a href="xsell-cards.html">X-Sell Cards</a></li>
+        <li><a href="icons.html">Icons</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="pagination.html">Pagination</a></li>
+        <li><a href="sort-controls.html">Sort controls</a></li>
+        <li><a href="tabs.html">Tabs</a></li>
+        <li><a href="tooltips.html">Tooltips </a></li>
+      </ul>
+      <ul>
+        <li class="leftnavtop">Messaging</li>
+        <li><a href="errors-and-alerts.html">Errors &amp; alerts</a></li>
+        <li><a href="overlays.html">Overlays</a></li>
+      </ul>
+    </div>
+    <!-- InstanceEndRepeatEntry --><!-- InstanceEndRepeat -->
+
+    <div id="content"> <!-- InstanceBeginEditable name="heading" -->
+        <h1 style="color: #000000; padding: 4px; padding-left: 8px; padding-bottom: 8px; border-bottom: dashed; border-bottom-width: 1px; border-bottom-color: #999999 ">Sort controls</h1>
+        <!-- InstanceEndEditable --> <!-- InstanceBeginEditable name="content" -->
+      <div style="padding: 4px; padding-top: 20px;">
+        <h2>
+          <!--        <h2>Top sort controls</h2>
+        <p>Fig 1. shows the default top sort controls bar that should be used on all search results pages.</p>
+        <p style="padding-top: 15px; padding-bottom: 15px;"><img src="images/sort_fig1.gif" alt="" width="702" height="182" /></p>
+        <p style="padding-bottom: 15px;">Fig 2. shows how the sort controls should behave once the 'Closest to' option is selected on the hotels &amp; DP UI. The 'Select place of interest' drop down should dynamically appear once the 'Closest to' option is selected. This should be built using Ajax so no page refresh is needed.</p>
+        <p style="padding-bottom: 15px;"><img src="images/sort_fig2.gif" alt="" width="702" height="182" /></p>
+        <h2><strong>Bottom sort controls:</strong></h2>
+        <p>Fig 3. shows the default bottom sort controls bar that should be used on all search results pages.</p>
+        <p style="padding-top: 15px;"><img src="images/sort_fig3.gif" alt="" width="702" height="182" /></p>-->
+          Hotels</h2>
+        <p>For the <strong>Hotels Path</strong> the Sort Controls only appear in the <strong>Search Results</strong> page above the hotel cards and below the TSH disclaimer in the content area.</p>
+        <h6>Default</h6>
+        <p>The <strong>default selection</strong> is &quot;Our favorites&quot; highlighted in magenta #ec008c. The &quot;Distance from&quot; and the dropdown for the landmarks is always displayed. The &quot;Distance from&quot; label is not clickable.<br />
+          The width or lenght for the dropdown menu depends on the content and names of the landmarks.
+        </p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-01.png" width="500" height="83" alt="Sort controls" /></div>
+        <h6>Mouseover</h6>
+        <p>On <strong>mouseover</strong> the link behaves like a regular link, the underline disappear upon user interaction with the link.</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-03.png" alt="Sort controls" width="500" height="83" /></div>
+        <h6>Distance from landmark</h6>
+        <p>When the user selects a landmark from the dropdown the &quot;Distance from&quot; text is highlighted with a magenta color #ec008c.</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-02.png" alt="" width="500" height="82" /></div>
+        <h6>Non-JS</h6>
+        <p>When the user has a <strong>browser with JS disable</strong> the &quot;Distance from&quot; label and dropdown will not be shown.</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-06.png" width="500" height="39" alt="Sort controls" /></div>
+        <p><strong class="error">This is deprecated.</strong> When the user has a browser with JS disabled the &quot;Sort&quot; button will appear so that the user can select a landmark</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-04.png" alt="Sort controls" width="500" height="82" /></div>
+        <h2>Flights</h2>
+        <p>The sort controls in the <strong>Fligt Path</strong> will appear in the <strong>Search Results</strong> page above the flight cards with the &quot;lowest price&quot; sort selected by default.</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-05.png" alt="Sort controls" width="500" height="39" /></div>
+        <h2>X-Sell</h2>
+        <p>In the <strong>X-Sell</strong> path the the &quot;Distance from&quot; label and dropdown will not be displayed.</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-06.png" width="500" height="39" alt="Sort controls" /></div>
+        <h2>Design breakdown</h2>
+        <div class="figure"><img src="images/sort-controls/sort-controls-07.png" width="500" height="110" /></div>
+        <h6>Colors</h6>
+        <ul>
+          <li>Default link color: #000</li>
+          <li>Highlight color: #ec008c</li>
+          <li>Pipe/Vertical divider: #999</li>
+        </ul>
+        <h6>Fonts and weights</h6>
+        <ul>
+          <li><strong>Highlight link</strong> font-weight: bold</li>
+          <li><strong>Default link</strong> font-weight: normal </li>
+          <li><strong>Size</strong> font-size: 12pt </li>
+        </ul>
+        <h6 class="error">Visual Bug</h6>
+        <p>There should not be any vertical divider or pipe to the right of the last link.</p>
+        <div class="figure"><img src="images/sort-controls/sort-controls-08.png" width="500" height="100" alt="Sort controls" /></div>
+      </div>
+      <!-- InstanceEndEditable -->
+    </div>
+  </div>
+  <div id="footer">
+
+  </div>
+  <!-- /footer-->
+</div>
+<!-- /master-->
+</body>
+<!-- InstanceEnd --></html>

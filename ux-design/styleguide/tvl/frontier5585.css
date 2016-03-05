@@ -1,0 +1,448 @@
+/* --- [start /site_babs/portal_skins/DEFAULT/frontier.css] --- */
+
+/* --- [start /site_babs/portal_skins/DEFAULT/core.css] --- */
+h1 {
+	font-size:2.0em;
+	margin:0;
+font-weight:lighter;
+}
+h2 {
+	font-size:1.7em;
+	color: #00467f;
+	margin:0;
+	font-weight:lighter;
+	background-color: #cce2f2;
+	padding: 5px;
+}
+h3 {
+	font-size:1.5em;
+	margin:0;
+font-weight:lighter;
+}
+
+h4 {
+	font-size:1.4em;
+	margin:0;
+font-weight:lighter;
+}
+
+body {
+	font-size:100%;
+	margin:0px;
+}
+.floatLeft, .left {
+	float:left;
+}
+.floatRight, .right {
+	float:right;
+}
+div.clearSmall {
+clear:both;
+padding:5px 0pt 0pt;
+}
+.clear {
+	clear:both;
+}
+a img {
+	border:none;
+}
+
+#master_top {
+	position:absolute;
+	top:0px;
+}
+#master_center {
+	margin-top:50px;
+}
+fieldset {
+	padding:0pt;
+	border:0pt none;
+	margin: 2px 0px 2px 0px;
+}
+.bold {
+	font-weight:bold;
+}
+.lighter {font-weight:lighter;}
+
+ul {
+	list-style: circle;
+}
+    
+#prod_nav ul {
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	margin-bottom: 0px;
+	}
+#prod_nav li {
+	padding-bottom: 2px;
+	
+	}
+#prod_nav li a:link, #prod_nav li a:visited {
+	vertical-align:middle;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	color: #f58426;
+	text-decoration: none;
+	font-weight: normal;
+	background-color: #ffffff;
+	
+	}
+#prod_nav li a:hover {
+	background-color: #ffffff;
+	color: #f58426;
+	text-decoration: underline;
+	}
+	
+	#main_cont {
+	margin-left: 10px;
+	float: left;
+	text-align: left;  
+	
+	}
+	
+#leftnavtop {
+	font-weight: bold;
+	color: #ffffff; 
+	text-align: left;
+	margin-bottom: 2px;
+	padding-left: 10px;
+	padding-top: 5px;
+	height: 19px;
+	background-image:url(images/site_spritesac14.gif?skin=engb.lastminute.com);
+	background-position:0px 92px;
+	}
+
+#leftnavtop1 {
+	font-weight: bold;
+	color: #ffffff; 
+	text-align: left;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	height: 19px;
+	background-color: #00467f; 
+	}
+	
+a:link,a.nav1:active, a.nav1:visited {
+	text-decoration: underline;
+	color: #000000;
+	font-weight: bold;
+	}
+a:hover {
+	
+	text-decoration: none;
+	
+	}
+	
+a.nav1:link,a.nav1:active, a.nav1:visited {
+	text-decoration: underline;
+	color: #FFFFFF;
+	}
+a.nav1:hover {
+	
+	text-decoration: none;
+	
+	}
+
+/* --- [end /site_babs/portal_skins/DEFAULT/core.css] --- */
+/* --- [start /site_babs/portal_skins/SITE_lastminute_en_GB/core.css] --- */
+body {
+	background-color:#ffffff;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color:#000000;
+}
+.hidden {
+left:-100em;
+position:absolute;
+top:-100em;
+}
+#master {
+	margin:auto;
+	width:960px;
+	font-size:0.76em;
+	overflow:hidden;
+}
+#master_top {
+	background-color:#ffffff;
+	width:960px;
+}
+#mastHead {
+	padding:17px 0px;
+}
+#master_center {
+	background-color:#FFFFFF;
+	margin-top:180px;
+	overflow:hidden;
+	width:100%;
+}
+ul#master_nav {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	background-image:url(images/site_spritesac14.gif?skin=engb.lastminute.com);
+	background-position:0px 97px;
+
+}
+ul#master_nav #keyword {border:none;}
+ul#master_nav li.mainNav {
+
+	color: #ffffff;
+	display: inline;
+	float: left;
+	color: #ffffff;
+	height:50px;
+	line-height:38px;
+	text-align:center;
+}
+ul#master_nav li.current div {
+	margin:auto;
+}
+ul#master_nav li.mainNav a {
+	font-size:1.2em;
+	padding:0px 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+ul#master_nav li.mainNav a:hover {
+	color: #f58426;
+	background-position:0px 230px;
+	text-decoration:underline;
+}
+ul#master_nav li.current a, ul#master_nav li.current a:hover {
+	color:#f58426;
+	display: inline;
+	font-weight:bold;
+text-decoration:none;
+}
+ul#master_nav li.right {
+	float:right;
+	border-right: none;
+	padding-right:10px;
+}
+div#headerDeals {
+	height:40px;
+	line-height:30px;
+	margin-top:50px;
+	width:280px;
+	text-align:right;
+	font-weight:bold;
+}
+div#headerDeals a, div#headerDeals a:hover, div#headerDeals a:active, div#headerDeals a:visited {
+	color: #f58426;
+	font-weight:normal;
+}
+#mastHeadRight {
+	margin-right:10px;
+width:273px;
+}
+#callUs {
+	text-align:right;
+}
+#callUs div {line-height:15px;display:inline;width:60px}
+#callUs div.telNum {width:150px;line-height:20px}
+
+/* Footer Navigation */
+#master_footer {
+	width:960px;
+	font-size:0.9em;
+}
+#master_footer div#flags {
+	height:35px;
+	background-color:#fffff;
+	color:#fff;
+	width:960px;
+	line-height:35px;
+	padding-left:5px;
+}
+div#flags ul, div#footerLinks ul {
+	margin:0px;
+}
+#master_footer div#flags li {
+	padding:2px;
+	position:relative;
+	display: inline;
+	top:2px;
+	margin:10px auto 0 auto;
+}
+#master_footer div#flags li img {
+	border:1px solid #ffffff;
+	padding:0px;
+}
+div#footerLinks {
+	height:35px;
+	line-height:35px;
+	width:960px;
+	background-color:#00467f;
+	color:#fff;
+	padding-left:5px;
+}
+#master_footer div#footerLinks ul li {
+	padding:0px 5px 0px 5px;
+	display: inline;
+	border-right: 1px solid #fff;
+	color: #fff;
+}
+#master_footer div#footerLinks li a {
+	color: #fff;
+	text-decoration: none;
+}
+#master_footer div#footerLinks li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+#master_footer div#footerLinks li.footerLinkRight {
+	border-right:none;
+}
+#moreLinks ul {
+	margin:0px;
+}
+#moreLinks ul li {
+	display:inline;
+	border-right:#000000 1px solid;
+	padding: 0px 15px;
+	line-height:20px;
+}
+.footerSiteLinks {
+	padding-top:15px;
+}
+#moreLinks p {
+	padding-left:5px;
+}
+.moreLinksStart {
+	padding-left:8px !important;
+}
+/* End Footer Navigation */
+
+/* Start Palette  */
+
+.white {color:#ffffff;}
+
+.black {color:#000000;}
+
+.whiteBg {background-color:#ffffff;}
+
+.blackBg {background-color:#000000;}
+
+.greyBorder {border-color:#666666;}
+
+
+
+/* Dark Blue */
+
+.darkBlue100 {color:#00467f;}
+
+.darkBlue70 {color:#4c7da6;}
+
+.darkBlue50 {color:#7fa2bf;}
+
+.darkBlue30 {color:#b2c7d8;}
+
+.darkBlue10 {color:#e5ecf2;}
+
+
+
+.darkBlueBg100 {background-color:#00467f;}
+
+.darkBlueBg70 {background-color:#4c7da6;}
+
+.darkBlueBg50 {background-color:#7fa2bf;}
+
+.darkBlueBg30 {background-color:#b2c7d8;}
+
+.darkBlueBg10 {background-color:#e5ecf2;}
+
+
+
+.darkBlueBorder100 {border-color:#00467f;}
+
+.darkBlueBorder70 {border-color:#4c7da6;}
+
+.darkBlueBorder50 {border-color:#7fa2bf;}
+
+.darkBlueBorder30 {border-color:#b2c7d8;}
+
+.darkBlueBorder10 {border-color:#e5ecf2;}
+
+
+
+/* Light Blue */
+
+.lightBlue100 {color:#569fd3;}
+
+.lightBlue70 {color:#89bce0;}
+
+.lightBlue50 {color:#aacfe9;}
+
+.lightBlue30 {color:#cce2f2;}
+
+.lightBlue10 {color:#eef5fb;}
+
+
+
+.lightBlueBg100 {background-color:#569fd3;}
+
+.lightBlueBg70 {background-color:#89bce0;}
+
+.lightBlueBg50 {background-color:#aacfe9;}
+
+.lightBlueBg30 {background-color:#cce2f2;}
+
+.lightBlueBg10 {background-color:#eef5fb;}
+
+
+
+.lightBlueBorder100 {border-color:#569fd3;}
+
+.lightBlueBorder70 {border-color:#89bce0;}
+
+.lightBlueBorder50 {border-color:#aacfe9;}
+
+.lightBlueBorder30 {border-color:#cce2f2;}
+
+.lightBlueBorder10 {border-color:#eef5fb;}
+
+
+
+/* Orange */
+
+.orange100 {color:#f58426;}
+
+.orange70 {color:#f8a967;}
+
+.orange50 {color:#fac192;}
+
+.orange30 {color:#fcdabd;}
+
+.orange10 {color:#fef2e9;}
+
+
+
+.orangeBg100 {background-color:#f58426;}
+
+.orangeBg70 {background-color:#f8a967;}
+
+.orangeBg50 {background-color:#fac192;}
+
+.orangeBg30 {background-color:#fcdabd;}
+
+.orangeBg10 {background-color:#fef2e9;}
+
+
+
+.orangeBorder100 {border-color:#f58426;}
+
+.orangeBorder70 {border-color:#f8a967;}
+
+.orangeBorder50 {border-color:#fac192;}
+
+.orangeBorder30 {border-color:#fcdabd;}
+
+.orangeBorder10 {border-color:#fef2e9;}
+
+/* End Colour Palette */
