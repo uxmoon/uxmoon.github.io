@@ -1,7 +1,7 @@
 {
-  "name": "contest",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "WordPress theme",
+  "description": "Martin Luna Front-end Developer",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0",
