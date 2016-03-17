@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+/* Reset */
+
+@import 'normalize.css';
+
+
+.site-header,
+.site-footer {
+  display: block;
+  display: none;
+}
+
+.site-main {
+  background-color: #f00;
+  padding: 90px;
+}
