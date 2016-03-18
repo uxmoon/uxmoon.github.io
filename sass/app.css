@@ -4,14 +4,43 @@
 
 @import 'normalize.css';
 
-
-.site-header,
-.site-footer {
-  display: block;
-  display: none;
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.4;
 }
 
-.site-main {
-  background-color: #f00;
-  padding: 90px;
+.site-header {
+  height: 90vh;
+  background-color: #232323;
+  text-align: center;
+  color: #dddddd;
+  font-family: 'Varela Round',sans-serif;
+
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+}
+
+.site-footer {
+  color: #b7b7b7;
+  background-color: #232323;
+  text-align: center;
+  min-height: 320px;
+}
+
+.inline-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
 }

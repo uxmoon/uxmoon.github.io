@@ -22,7 +22,6 @@ gulp.task('browser-sync', function() {
 
 gulp.task('css', function() {
   var processors = [
-    autoprefixer,
     cssnext,
     precss,
     atImport,
