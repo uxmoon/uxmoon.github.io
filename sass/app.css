@@ -5,7 +5,7 @@
 @lost gutter 20px;
 
 .lost-row {
-  lost-center: 60rem; /* 960 pixels */
+  lost-center: 62.5rem;
 
   @media (max-width: 980px) {
     padding-left: 10px;
