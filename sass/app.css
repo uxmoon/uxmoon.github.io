@@ -1,5 +1,51 @@
 @charset 'utf-8';
 
+/* Grid */
+
+@lost gutter 20px;
+
+.lost-row {
+  lost-center: 60rem; /* 960 pixels */
+
+  @media (max-width: 980px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.one-third,
+.form-field,
+.half,
+.column {
+  lost-column: 1/1;
+}
+
+.one-third {
+  margin-bottom: 15px;
+}
+
+/* 769 pixels */
+@media (min-width: 48.063em) {
+  .half {
+    lost-column: 1/2;
+  }
+  .sidebar {
+    lost-column: 2/5;
+  }
+  .column {
+    lost-column: 3/5;
+  }
+  .two-thirds {
+    lost-column: 2/3;
+  }
+  .one-third,
+  .form-field {
+    lost-column: 1/3;
+  }
+  .one-third {
+    margin-bottom: 0;
+  }
+}
 /* Reset */
 
 @import 'normalize.css';
@@ -114,6 +160,7 @@ p {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
+  text-align: center;
 }
 
 .site-footer {
@@ -200,11 +247,27 @@ p {
   }
 
   p {
+    padding-top: 5px;
     font-size: 12px;
   }
 
   a {
     color: #333;
+  }
+
+  &.lastminute,
+  &.travelocity {
+    figure {
+      position: relative;
+      min-height: 180px;
+      background-color: #00467F;
+    }
+  }
+
+  &.lastminute {
+    figure {
+      background-color: #EC008C;
+    }
   }
 }
 
