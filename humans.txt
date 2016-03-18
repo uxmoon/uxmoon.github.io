@@ -1,8 +1,8 @@
-/* Personal Portfolio made by myself, Martin Eduardo Luna, a Front-end Developer */
-/* uxmooc.com */
+/* Front-end Developer personal Portfolio made by myself, Martin Eduardo Luna */
+/* uxmoon.com */
 /* humanstxt.org */
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Gulp, postCSS
-  Software: Git, Sublime Text
+  Software: Git, Sublime Text, Photoshop
