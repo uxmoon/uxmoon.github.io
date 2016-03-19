@@ -56,6 +56,7 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1em;
+  font-size: 32px;
   margin-left: .2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -89,7 +90,6 @@
 
 body {
   font-family: 'Roboto', serif;
-  // font-family: 'Droid Sans', sans-serif;
 }
 
 a {
@@ -148,14 +148,6 @@ p {
   text-align: center;
 }
 
-.site-footer {
-  position: relative;
-  color: #b7b7b7;
-  background-color: #232323;
-  text-align: center;
-  min-height: 320px;
-}
-
 .inline-list {
   padding-left: 0;
   margin-bottom: 0;
@@ -163,10 +155,6 @@ p {
   li {
     list-style-type: none;
     display: inline-block;
-  }
-  .social {
-    width: 32px;
-    color: red;
   }
 }
 
@@ -221,6 +209,10 @@ p {
       }
     }
   }
+  [class^="icon-"]:before,
+  [class*=" icon-"]:before {
+    font-size: 14px;
+  }
 }
 
 .item {
@@ -249,6 +241,11 @@ p {
 
   a {
     color: #333;
+    &:hover,
+    &:active {
+      text-decoration: none;
+      color: #008CBA;
+    }
   }
 
   &.lastminute,
@@ -308,4 +305,12 @@ p {
   .headline {
     font-size: 12px;
   }
+}
+
+.site-footer {
+  position: relative;
+  color: #b7b7b7;
+  background-color: #232323;
+  text-align: center;
+  min-height: 320px;
 }
